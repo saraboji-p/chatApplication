@@ -33,17 +33,29 @@
 		C68C19952CB01D8D000CBC51 /* Exceptions for "PersonalChatApp" folder in "PersonalChatApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				ChatScreen/CoreData/PersonalChatApp.xcdatamodeld,
 				Info.plist,
 			);
 			target = C68C19692CB01D8B000CBC51 /* PersonalChatApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		C64604622CB3F5C4005D7332 /* Exceptions for "PersonalChatApp" folder in "Compile Sources" phase from "PersonalChatApp" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = C68C19662CB01D8B000CBC51 /* Sources */;
+			membershipExceptions = (
+				ChatScreen/CoreData/PersonalChatApp.xcdatamodeld,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C68C196C2CB01D8B000CBC51 /* PersonalChatApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C68C19952CB01D8D000CBC51 /* Exceptions for "PersonalChatApp" folder in "PersonalChatApp" target */,
+				C64604622CB3F5C4005D7332 /* Exceptions for "PersonalChatApp" folder in "Compile Sources" phase from "PersonalChatApp" target */,
 			);
 			path = PersonalChatApp;
 			sourceTree = "<group>";
